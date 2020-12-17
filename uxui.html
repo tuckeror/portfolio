@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Interactive Design II" content="Portfolio Site">
+    <meta name="author" content="Olivia Tucker">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivia Tucker Portfolio Website</title>
+
+    <!-- Bootstrap v4.4.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="col-md-13">
+        <ul class="nav justify-content-end">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" aria-current="page" data-bs-toggle="dropdown" href="design.html" role="button" aria-expanded="false">Design</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="uxui.html">UX / UI</a></li>
+                        <li><a class="dropdown-item" href="graphic.html">Graphics</a></li>
+
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="code.html">Code</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="finearts.html" role="button" aria-expanded="false">Fine Arts</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="painting.html">Painting</a></li>
+                        <li><a class="dropdown-item" href="graphic.html">Drawing</a></li>
+
+                        <a class="nav-link" aria-current="page" href="aboutme.html">About Me</a>
+
+                    </ul>
+                </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">About Me</a>
+                </li>
+            </ul>
+        </ul>
+    <!--insert body elements-->
+        
+     <!-- details card section starts from here -->
+<section class="details-card">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="images/coverimage.png" alt="Venmo Design">
+                    </div>
+                    <div class="card-desc">
+                        <h3>Venmo Re-Design Case Study</h3>
+                        <p>Featured below includes one of my Interactive Design Case Studies. This project showcased my user research, user experience and interface knowledge, coding, and graphic design skills.</p>
+                            <a href="#VenmoDesign" class="btn-card">See what I did</a>   
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="images/politillectcover.png" alt="">
+                    
+                    </div>
+                    <div class="card-desc">
+                        <h3>Politelect App Creation</h3>
+                        <p>This project included a full design of a new app titled "Politillect." This project showcased app flow design, user research, user experience and interface knowledge, coding, wireframing, prototyping, and graphic design skills.</p>
+                            <a href="#Politelect" class="btn-card">View the Report</a>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        
+<!--beginning of Venmo report bring to bottom of page-->
+<div class="row">
+            
+            <div class="col-md-13">
+                <h3 id="VenmoDesign">The Introduction </h3><br>
+                <p>As electronic currency and digital wallets become increasingly prevalent, digital technology has already revolutionized the way we think about money. While just years ago almost all monetary exchanges were physical and tangible, digital money has become more of a conceptual transaction that exists purely in a digital form. When it comes to digitally exchanging money, user experience and interface design is as important as ever. <br>
+
+                    <br>
+                    <p>Venmo is a service owned by PayPal allowing its users to exchange and transfer money between friends. Venmo has gained vast popularity since its invention in 2009 and offers millennials a more social way of sharing their transactions between various accounts. As a college student who has to constantly transfer money between friends, I find myself using Venmo multiple times each week. Although I think Venmo has done a great job thus far pioneering a social and digital money transfer application, there are many flaws that exist from a user perspective. Throughout this case study, I plan to examine two main user pain points.
+                    </p>
+                    <h3>User Research</h3>
+                    <p>In order to gain a better understanding about Venmo’s faults, I held a Google Survey on my social media. These participants are Venmo users with ages that range from <strong>18-47, totaling 45 male responses and 105 female responses.</strong> I capped this poll at <b> 150 participants,</b> thrilled to be able to collect such a large sum of data through social media. These participants answered multiple choice yes or no questions, were able to “check those that apply,” and wrote in some short answer responses. The trends in this data provided me with essential information as to how I can improve the overall Venmo user experience. </p>
+                    <div class="img2"><img src="images/venmotiming.png" width="1000px" height="450px"></div>
+                    <p>As you can see from these responses, <b>nearly half (47%)</b> of those surveyed find themselves using the Venmo app at least 3 times a week. This rate of use shows that Venmo is one of the most competitive digital money applications. </p>
+
+                    <div class="img3"><img src="images/venmopaysurvey.png" width="1070px" height="450px"></div>
+                    <p>Out of 150 Venmo users who were asked if they have ever been frustrated with Venmo, 54% said yes. As a company that is handling people’s money and trust, it should be taken seriously when over half of the users agree they were unsatisfied with at least one of their experiences.<br>Through other questions asked throughout the survey, it is clear the source of frustration stems from Venmo’s interface design. By redesigning problematic pages, I think this application experience can be improved.
+                
+                    <h3>Design Questions</h3>
+                <p>
+                            <ul>
+                                <p>As an application, how can we improve the experience of Venmo users by redesigning the pay option and decreasing the margin of error?</p>
+                                <p>How can we make Venmo tasks more convenient for its users? (For example, paying people who you are not friends with on Venmo)
+                            </ul>
+
+                    <h3>Pain Point 1: Paying vs. Requesting Money</h3>
+                    <p>Based on the design placement of the “pay” and “request” options, it is far too easy to confuse the two. The only separation between the two is one small white vertical line.
+
+                        <br><br> Out of 150 people surveyed, 68.7% or 103 people have accidentally paid someone on Venmo instead of requesting money. For a platform as widely used as Venmo, this margin of error is unacceptable. The main purpose of Venmo is to transfer money between various friends or accounts, and the option to pay or request should be abundantly clear to its users.
+                    </p><br>
+                    <h3>Venmo's Current Design</h3><br>
+                    <div class="img4"><img src="images/designimage1.png"></div>
+            </div>
+        </div><br><br>
+        <h3>Visibility: To improve visibility, Venmo must:</h3><br>
+                
+                    <p>
+                        Lead users on a clear path to payment<br>
+                        Lead users on a clear path to requesting money<br>
+                        Simple redesign to prevent errors <br>
+    
+                    </p>
+                <br>
+                <h3>The Re-design</h3>
+        <p>My vision for a newly curated home page and pay or request interface. </p><br>
+                 <div class="img5"><img src="images/newvenmodesigns1.png"></div><br><br>
+                <h3>How does this new design improve visibility and function?</h3>
+                <p><br>
+                        Visible separation between the pay and transfer buttons<br>
+                        Focuses on the 3 most popular actions the application is used for<br>
+                    Less busy, more simplistic<br>
+                   Offers a view of account balance and profile on home page<br>
+                  Different colors help emphasize different app functions<br>
+                   
+                    </p>
+        
+         <h3>Pain Point 2: Paying Friends, and Strangers</h3>
+                    <p>As a company that is handling people’s money and trust, it should be taken seriously when over half of the users agree they were unsatisfied with at least one of their experiences. The second pain point dives further into the pay options. If you go to pay someone on Venmo whom you are not previously friends with, you cannot look at their profile photo alongside their profile to confirm it is them. This is a design flaw because it requires users to take an extra few steps and search who they are looking for, make sure it is them, then go back to the main page and pay the user, hoping they remembered the correct account. If this information was consolidated, this would make paying new accounts more dependable. In addition, there should be an option to pay multiple people at once in a group setting. For many, Venmo is used as a common ground application where groups of friends, roommates, families, or co-workers exchange their money. Unlike iMessages, Venmo does not have an option where you can request money from multiple people at once. Although it has a “split fare” option, users do not always want to evenly split specific costs. 
+                    </p><br>
+
+        <h3>Venmo's Current Design</h3><br>
+                    <div class="img6"><img src="images/venmofriendrequest.png"></div><br><br>
+                    <h3>Standardization: To exhibit standardization, this redesign should:</h3><br>
+                    <p>
+                Present obvious access to the search bar<br>
+                    Allow all venmo usernames to show up on payment page<br>
+                    Show profile photo alongside username<br>
+                    Allow users to make groups to pay all together<br>
+                    </p><br>
+                    <h3>The Re-Design</h3><br>
+                    <div class="img7"><img src="images/newvenmodesign2.png"></div><br><br>
+                    
+<h3>How does this new design improve standardization?</h3><br>
+                <p>
+                        Option to pay users directly after search<br>
+                        Shows username alongside profile photo (If applicable)<br>
+                    Group Pay Option<br>
+                   Shows users who the group members are<br>
+                   Allows users to name the group for convenience<br>
+                    </p><br>
+    
+    <h3>Conclusion</h3><br>
+                    <p>The opportunity to re-design such a notable platform like Venmo gave me a much deeper understanding for user research and the user experience. Oftentimes, it is easy to overlook user problems when an app has gained a lot of praise or notoriety. However, this project reminded me how important it is to be an articulate designer who always keeps the user in mind. There is always room for improvement. App Flow should be effortless, and I will take that information with me as I continue to create with passion and purpose.
+                    </p><br>
+        
+        <hr>
+        
+    <h3 id="Politelect">Politelect Project Report</h3><br>
+        <div class="img8"><img src="images/politillectdesign1.png"></div>
+        
+        <button type="button" class="center btn btn-secondary" >See my other UX Projects<br><a href="../FinalPortfolioSiteIDII/Politillect.pdf" download="Politelect">Politelect Report</a></button><br><br><br>
+        
+        
+        
+<style>
+    p{
+        padding-left:200px;
+        padding-right:200px;
+    }
+    h3{
+        Padding-top:50px;
+        Padding-left:180px;
+    }
+  section{
+    padding: 100px 0;
+}
+    
+.details-card {
+	background: #ecf0f1;
+}
+
+.card-content {
+	background: #ffffff;
+	border: 4px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.card-img {
+	position: relative;
+	overflow: hidden;
+	border-radius: 0;
+	z-index: 1;
+}
+
+.card-img img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.card-img span {
+	position: absolute;
+    top: 15%;
+    left: 12%;
+    background: #1ABC9C;
+    padding: 6px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transform: translate(-50%,-50%);
+}
+.card-img span h4{
+        font-size: 12px;
+        margin:0;
+        padding:10px 5px;
+         line-height: 0;
+}
+.card-desc {
+	padding: 1.25rem;
+}
+
+.card-desc h3 {
+	color: #000000;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.card-desc p {
+	color: #747373;
+    font-size: 14px;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+    
+    
+    }.btn{
+        color:white;
+        
+    } 
+    
+    .btn:hover{
+        color:red;
+    }
+.btn-card{
+	background-color:lightpink;
+	color: #fff;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    margin: 0;
+    border: 0;
+    -webkit-border-radius: .125rem;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    color: #fff;
+}
+.btn-card:hover {
+    background: #FCD9E8;
+}
+a.btn-card {
+    text-decoration: none;
+    color: #fff;
+}  
+    
+.img2, .img3, .img4, .img5,.img6, .img7, .img8
+    {
+        padding-left: 200px;
+            height:auto;
+            width:auto;
+    }
+        
+    </style>
+       
+<!-- details card section starts from here -->   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+  
+        
+                
+        
+         <!-- Footer Elements -->
+
+              
+                <a href="https://www.linkedin.com/in/olivia-tucker-ba3a02171/l" target="_blank"><img src="images/linkedinlogo.png" width="30px" class="center" alt="LinkedIn"></a>
+
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                    <a href="https://www.livtuckerdesign.com/">Olivia Tucker</a>
+                </div>
+                <!-- Copyright -->
+
+            <!-- Footer -->
+       
+                
+                
+                
+                
+        
+                
+            
+
+
+            
+
+            <!-- jQuery and Bootstrap links - do not delete! -->
+        
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+            <!-- end of do not delete -->
+
+       </div> <!--final div container-->
+</body>
+
+</html>
+
