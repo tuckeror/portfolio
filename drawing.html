@@ -3,80 +3,132 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Olivia Tucker Design">
+    <meta name="Interactive Design II" content="Portfolio Site">
     <meta name="author" content="Olivia Tucker">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olivia Tucker Design</title>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;&display=swap" rel="stylesheet">
+    <title>Olivia Tucker Portfolio Website</title>
+
     <!-- Bootstrap v4.4.1 -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="css/custom.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet">
 
 
 </head>
 
 <body>
-    
     <div class="col-md-13">
+        <ul class="nav justify-content-end">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link dropdown-toggle" aria-current="page" data-bs-toggle="dropdown" href="design.html" role="button" aria-expanded="false">Design</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="uxui.html">UX / UI</a></li>
+                        <li><a class="dropdown-item" href="graphic.html">Graphics</a></li>
+
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="code.html">Code</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="finearts.html" role="button" aria-expanded="false">Fine Arts</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="painting.html">Painting</a></li>
+                        <li><a class="dropdown-item" href="graphic.html">Drawing</a></li>
+
+</ul>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="aboutme.html">About Me</a>
+</li>
+</ul>
+</ul>
+    <!--insert body elements-->
     
-    
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-             
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
-         </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="container">
-     <h1> Olivia Tucker </h1>
-        <h1 class="typing"></h1>
+   
+        <!--background image container-->
+   <!-- Grid row -->
+    <div class="row">
+           
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                   <h2>Where it all started.</h2><br>
+               </div>
+           </div>
+                <h6>Before I was able to transition into painting, I used my messy sketch style to familiarize myself with basic design principles and elements of art. My favorite medium to draw or sketch with has always been charcoal, the messiest of them all. Although painting is my favorite, I always resort back to drawing and doodling.</h6><br><br>
+
+                </div><!--end of div-->
+                </div>
+            <!-- Grid row -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/charcoaleye.jpg" class="d-block img-fluid center" alt="...">
     </div>
-<script src="typed.js"></script>
-    
-    </body>
-</html>
+    <div class="carousel-item">
+      <img src="images/fineart.jpg" class="d-block img-fluid center" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/finearts1.jpg" class="d-block img-fluid center" alt="...">
+    </div>
+      <div class="carousel-item">
+      <img src="images/finearts2.jpg" class="d-block img-fluid center" alt="...">
+    </div>
+      <div class="carousel-item">
+      <img src="images//pastels.jpg" class="d-block img-fluid center" alt="...">
+    </div>
+      <div class="carousel-item">
+      <img src="images/pastels2.jpeg" class="d-block img-fluid center" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
         
+        
+<style>
+    .carousel-control-next:focus,
+    .carousel-control-next:hover,
+    .carousel-control-prev:focus,
+    .carousel-control-prev:hover {
+        color: red;
+        text-decoration: red;
+        outline: 0;
+        opacity: .9;
+    }
+
+    h6 {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    h2 {
+        text-align: center;
+        color: light gainsboro;
+        padding-top: 100px;
+        font-size: 40px;
+    }
+</style>
+            
+
+            <!-- jQuery and Bootstrap links - do not delete! -->
+        
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+            <!-- end of do not delete -->
+
+       </div> <!--final div container-->
+</body>
+
+</html>
